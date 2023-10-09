@@ -14,7 +14,7 @@ export class Trivia {
                 <img class="image-fluid logo"src="https://images.unsplash.com/photo-1599508704512-2f19efd1e35f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cXVlc3Rpb258ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60">
             </div>
             <div class="col-12 text-center m-5 p-5">
-                <h1 class="fw-bold">
+                <h1 class="fw-bold coolText">
                     ${this.question}
                 </h1>
             </div>
@@ -33,11 +33,11 @@ export class Trivia {
         </div>
         <div class="row">
             <div class="col-12 text-center mt-5">
-            <p class="fs-3 fw-bold">Your Score: <span id="points">0</span> points</p>
+            <p class="fs-3 fw-bold coolText">Your Score: <span id="points">0</span> points</p>
             </div>
             <div class="col-12 text-center">
             <div>
-            <button class="btn fs-4 text-center mt-3" onclick="app.TriviaController.resetScore()">Reset Score</button>
+            <button class="btn fs-4 text-center mt-3 text-light coolText coolButton" onclick="app.TriviaController.resetScore()">Reset Score</button>
             </div>
             </div>
         </div>

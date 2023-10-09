@@ -6,6 +6,7 @@
 .logo {
     border-radius: 100%;
     max-height: 30vh;
+    box-shadow: 2px 6px 6px blue;
 }
 
 body {
@@ -16,9 +17,20 @@ body {
 .true {
     color: rgb(12, 228, 12);
     border: 3px solid rgb(12, 228, 12);
+    box-shadow: 2px 6px 6px rgb(12, 228, 12);
 }
 
 .false {
     color: red;
     border: 3px solid red;
+    box-shadow: 2px 6px 6px red;
+}
+
+.coolText {
+    color: white;
+    text-shadow: 2px 6px 6px blue;
+}
+
+.coolButton {
+    box-shadow: 2px 6px 6px blue;
 }
